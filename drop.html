@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            height: 500px;
+            align-items: center;
+        }
+        .main
+        {
+            position: relative;
+        }
+        .one
+        {
+            
+            color: white;
+            font-size: 120px;
+            box-shadow: 0px 0px 10px red;
+            animation: drop 3s linear forwards;
+            border-radius: 20%;
+            float: left;
+            margin-right: 40px;
+            margin-top: 18px;
+            padding: 5px;
+            border: none;
+            box-shadow: none;
+            text-shadow: 0px 0px 10px red;
+            
+            
+        }
+        .two
+        {
+            
+            color: red;
+            font-size: 120px;
+            /* box-shadow: 0px 0px 10px white; */
+            animation: drop-two 4s linear forwards;
+            border-radius: 20%;
+            float: left;
+            border: none;
+            text-shadow: 0px 0px 10px white;
+            padding: 5px;
+            
+            
+            
+        }
+        .three
+        {
+            
+            color: white;
+            font-size: 120px;
+            text-shadow: 0px 0px 10px red;
+            animation: drop-two 5s linear forwards;
+            border-radius: 20%;
+            float: left;
+            margin-top: -145px;
+            margin-left: 260px;
+            padding: 5px;
+            
+            
+            
+        }
+        .four
+        {
+            
+            color: red;
+            font-size: 120px;
+            text-shadow: 0px 0px 10px white;
+            animation: drop-two 6s linear forwards;
+            border-radius: 20%;
+            float: left;
+            margin-top: -145px;
+            margin-left: 40px;
+            padding: 5px;
+            /* margin-left: 100px; */
+            
+            
+        }
+        @keyframes drop {
+            0% {transform: translateY(-500px) scaleY(0.9);}
+            5% {opacity: 0.5;}
+            50% {transform: translateY(0px); opacity: 0.5;}
+            65% {transform: translateY(-15px) scaleY(0.9);}
+            75% {transform: translateY(-20px) scaleY(0.9);}
+            100% {transform: translateY(0px) scaleY(1); opacity: 1;}
+            
+        }
+        @keyframes drop-two {
+            0% {transform: translateY(-500px) scaleY(0.9);}
+            5% {opacity: 0.5;}
+            50% {transform: translateY(0px); opacity: 0.5;}
+            65% {transform: translateY(-15px) scaleY(0.9);}
+            75% {transform: translateY(-20px) scaleY(0.9);}
+            100% {transform: translateY(0px) scaleY(1); opacity: 1;}
+            
+        }
+        @keyframes drop-three {
+            0% {transform: translateY(-500px) scaleY(0.9);}
+            5% {opacity: 0.5;}
+            50% {transform: translateY(0px); opacity: 0.5;}
+            65% {transform: translateY(-15px) scaleY(0.9);}
+            75% {transform: translateY(-20px) scaleY(0.9);}
+            100% {transform: translateY(0px) scaleY(1); opacity: 1;}
+            
+        }
+        @keyframes drop-four {
+            0% {transform: translateY(-500px) scaleY(0.9);}
+            5% {opacity: 0.5;}
+            50% {transform: translateY(0px); opacity: 0.5;}
+            65% {transform: translateY(-15px) scaleY(0.9);}
+            75% {transform: translateY(-20px) scaleY(0.9);}
+            100% {transform: translateY(0px) scaleY(1); opacity: 1;}
+            
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="main">
+        <div class="one">D</div>
+        <br>
+        <div class="two">R</div>
+        <div class="three">O</div>
+        <div class="four">P</div>
+    </div>
+</body>
+</html>
